@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Katik (Kalkulator Matematik)</title>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Matematik</h1>
+        <h3>Welcome to Katik</h3>
+        <p>Hai Sobat, Selamat datang di Katik :) </p>
+        <br>
+        <p>Sebuah web sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        <img src="https://www.pngplay.com/wp-content/uploads/12/Square-Free-PNG.png" alt="Persegi">
+    </header>
+    <div class="input">
+        <label for="sisi" id="labelSisi">Panjang Sisi (cm)</label>
+        <br>
+        <input type="number" id="sisi">
+    </div>
+    <button onclick="luas()" id="hitung">Hitung Luas</button>
+    <button onclick="keliling()" id="hitung">Hitung Keliling</button>
+    <div class="buttons">
+        <button onclick="rst()" id="reset">Reset</button>
+    </div>
+    <h2 id="hasil"></h2>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
